@@ -1,3 +1,7 @@
+# WARNUNG
+**Das Projekt ist nicht dazu geeignet und darf nicht dazu verwendet werden, Eigentum, Personen oder sonstiges zu schützen.**
+Dieses Projekt wurde als reines Just-for-Fun-Projekt entwickelt. Es gibt keinerlei Garantie, keine Gewährleistung und keine Wartung. Für mich persönlich gilt zwar „besser als nichts“, aber nur in Kombination mit eigener, persönlicher Kontrolle vor Ort.
+
 # Geosphaere Wetterwarnung (Home Assistant)
 Custom Integration fuer Geosphere Austria (ZAMG) Wetterwarnungen in Oesterreich. Holt Warnungen per API fuer `zone.home` und optionale Zusatzkoordinaten, stellt Sensoren/Binary-Sensoren bereit und bietet Config-Flow sowie konfigurierbares Polling mit Grace-Handling.
 
