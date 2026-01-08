@@ -160,7 +160,7 @@ class WarningLevelSensor(CoordinatorEntity, SensorEntity):
     def device_info(self) -> DeviceInfo:
         return DeviceInfo(
             identifiers={(DOMAIN, self._entry_id)},
-            name="Geosphäre Wetterwarnungen",
+            name="GeoSphere Wetterwarnungen",
             manufacturer="ZAMG / Geosphere Austria",
         )
 
@@ -200,4 +200,5 @@ class WarningLevelSensor(CoordinatorEntity, SensorEntity):
         attrs["icon_color"] = _icon_color_for_level(level)
 
         return attrs
+
 
