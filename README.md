@@ -45,9 +45,6 @@ Custom Integration fuer Geosphere Austria (ZAMG) Wetterwarnungen in Oesterreich.
 - `... Warnungslevel` je Typ (Wert 0-3)
 - Attribute: `Remaining Hours`, `until`, `icon_color`
 
-## Updates via HACS
-Damit Updates in HACS funktionieren, muss die Version in `custom_components/geosphaere_wetterwarnung/manifest.json` mit dem Git-Tag der Release uebereinstimmen (z.B. `0.1.0`).
-
 ## Hinweise
 - Datenquelle: Geosphere Austria (ZAMG) Warn-API
 - API-Key wird nicht benoetigt
