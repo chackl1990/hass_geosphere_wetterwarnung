@@ -39,7 +39,9 @@ API Link Beispiel: https://warnungen.zamg.at/wsapp/api/getWarningsForCoords?lon=
 3. Optionen:
    - Scan-Intervall (30-600 Sekunden)
    - Zusatzkoordinaten im Format `lat,lon;lat,lon` (Beispiel: `48.2082,16.3738;47.0707,15.4395`)
-   - Grace-Period in Sekunden (z.B. 600)
+   - Grace-Period in Sekunden (z.B. 600) - Warnungen werden über diesen Zeitraum gehalten, obwohl keine Warnung mehr bei der API abrufbar ist.
+
+Anmerkung: Im Bezug auf Grace-Period gibt es aktuell noch Probleme, da die Warnungen immer wieder mal auf Sicher gesetzt werden, obwohl Warnungen vorhanden sind und die API Status 200 rückgemeldet hat.
 
 ## Entitaeten
 ### Binary Sensoren
