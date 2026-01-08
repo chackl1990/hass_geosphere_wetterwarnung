@@ -222,7 +222,7 @@ class WarningTypeBinarySensor(CoordinatorEntity, BinarySensorEntity):
     def device_info(self) -> DeviceInfo:
         return DeviceInfo(
             identifiers={(DOMAIN, self._entry_id)},
-            name="Geosphäre Wetterwarnungen",
+            name="GeoSphere Wetterwarnungen",
             manufacturer="ZAMG / Geosphere Austria",
         )
 
@@ -309,7 +309,7 @@ class CurrentSummaryBinarySensor(CoordinatorEntity, BinarySensorEntity):
     def device_info(self) -> DeviceInfo:
         return DeviceInfo(
             identifiers={(DOMAIN, self._entry_id)},
-            name="Geosphäre Wetterwarnungen",
+            name="GeoSphere Wetterwarnungen",
             manufacturer="ZAMG / Geosphere Austria",
         )
 
@@ -384,7 +384,7 @@ class UpcomingSummaryBinarySensor(CoordinatorEntity, BinarySensorEntity):
     def device_info(self) -> DeviceInfo:
         return DeviceInfo(
             identifiers={(DOMAIN, self._entry_id)},
-            name="Geosphäre Wetterwarnungen",
+            name="GeoSphere Wetterwarnungen",
             manufacturer="ZAMG / Geosphere Austria",
         )
 
@@ -458,7 +458,7 @@ class ApiStatusBinarySensor(CoordinatorEntity, BinarySensorEntity):
     def device_info(self) -> DeviceInfo:
         return DeviceInfo(
             identifiers={(DOMAIN, self._entry_id)},
-            name="Geosphäre Wetterwarnungen",
+            name="GeoSphere Wetterwarnungen",
             manufacturer="ZAMG / Geosphere Austria",
         )
 
@@ -495,4 +495,5 @@ class ApiStatusBinarySensor(CoordinatorEntity, BinarySensorEntity):
 
         attrs["icon_color"] = "red" if self.is_on else "green"
         return attrs
+
 
