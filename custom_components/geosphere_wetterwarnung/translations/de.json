@@ -1,6 +1,6 @@
 {
   "config": {
-    "flow_title": "Geosphere Wetterwarnung",
+    "flow_title": "GeoSphere Wetterwarnung",
     "step": {
       "user": {
         "title": "Geosphere Wetterwarnung",
