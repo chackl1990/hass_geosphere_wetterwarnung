@@ -24,7 +24,7 @@ API Link Beispiel: https://warnungen.zamg.at/wsapp/api/getWarningsForCoords?lon=
 - Internetzugang zu `warnungen.zamg.at`
 
 ## Installation ueber HACS (Custom Repository)
-[![HACS Repository](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=chackl1990&repository=hass_Geosphere_wetterwarnung&category=integration)
+[![HACS Repository](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=chackl1990&repository=hass-geosphere-wetterwarnung&category=integration)
 
 1. HACS > Integrations > Menu (drei Punkte) > Custom repositories
 2. Repository-URL einfuegen (dieses GitHub-Repo), Kategorie: Integration
@@ -40,7 +40,7 @@ API Link Beispiel: https://warnungen.zamg.at/wsapp/api/getWarningsForCoords?lon=
 2. "Geosphere Wetterwarnung" auswaehlen
 3. Optionen:
    - Scan-Intervall (30-600 Sekunden)
-   - Zusatzkoordinaten im Format `lat,lon;lat,lon` (Beispiel: `48.2082,16.3738;47.0707,15.4395`)
+   - Zusatzkoordinaten im Format `lat,lon;lat,lon;...`
    - Grace-Period in Sekunden (z.B. 600) - Warnungen werden über diesen Zeitraum gehalten, obwohl keine Warnung mehr bei der API abrufbar ist.
 
 Anmerkung: Im Bezug auf Grace-Period gibt es aktuell noch Probleme, da die Warnungen immer wieder mal auf Sicher gesetzt werden, obwohl Warnungen vorhanden sind und die API Status 200 rückgemeldet hat.
